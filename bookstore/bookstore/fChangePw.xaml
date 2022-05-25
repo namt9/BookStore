@@ -1,0 +1,17 @@
+﻿<Window x:Class="bookstore.fChangePw"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bookstore"
+        mc:Ignorable="d"
+        Title="fChangePw" Height="200" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="10,24,0,0" Text="Mật khẩu mới" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="10,59,0,0" Text="Nhập lại mật khẩu" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Xác nhận" HorizontalAlignment="Left" Height="40" Margin="148,108,0,0" VerticalAlignment="Top" Width="113" Click="Ok_Click"/>
+        <PasswordBox HorizontalAlignment="Left" Height="30" Margin="135,24,0,0"  VerticalAlignment="Top" Width="190" x:Name="password_txt"/>
+        <PasswordBox HorizontalAlignment="Left" Height="33" Margin="135,59,0,0" VerticalAlignment="Top" Width="190" x:Name="rpassword_txt"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+﻿<Window x:Class="bookstore.MainUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bookstore"
+        mc:Ignorable="d"
+        Title="Trang chủ" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <Image Height="150" Width="180" Source="/listProducts.png" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="listproductsImage" MouseLeftButtonUp="listproductsImage_MLBU" MouseEnter="listproductsImage_ME" MouseLeave="listproductsImage_ML"/>
+            <Label Content="Danh sách sản phẩm" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Cooper Black" FontStyle="Normal" FontWeight="Normal" />
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Image Height="150" Width="180" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/infoUser.png" x:Name="infouserImage" MouseLeftButtonUp="infouserImage_MLBU" MouseEnter="infouserImage_ME" MouseLeave="infouserImage_ML"  />
+            <Label Content="Thông tin người dùng" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Cooper Black" FontStyle="Normal" FontWeight="Normal" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Image Height="150" Width="180" HorizontalAlignment="Center" VerticalAlignment="Center"  x:Name="logout" MouseLeftButtonUp="logout_MLBU" MouseEnter="logout_ME" MouseLeave="logout_ML"  Source="/Logout.png"/>
+            <Label Content="Đăng xuất" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Cooper Black" FontStyle="Normal" FontWeight="Normal"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Frame x:Name="frame"/>
+        </StackPanel>
+    </Grid>
+</Window>

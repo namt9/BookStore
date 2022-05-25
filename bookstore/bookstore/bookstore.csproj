@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2354573.png" />
+    <None Remove="back.png" />
+    <None Remove="backicon.png" />
+    <None Remove="info.jpg" />
+    <None Remove="infoUser.png" />
+    <None Remove="listProducts.png" />
+    <None Remove="logoUsername.png" />
+    <None Remove="Logout.png" />
+    <None Remove="ms.png" />
+    <None Remove="ms0.png" />
+    <None Remove="pass.png" />
+    <None Remove="search.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="2354573.png" />
+    <Resource Include="back.png" />
+    <Resource Include="info.jpg" />
+    <Resource Include="infoUser.png" />
+    <Resource Include="listProducts.png" />
+    <Resource Include="logoUsername.png" />
+    <Resource Include="Logout.png" />
+    <Resource Include="ms.png" />
+    <Resource Include="ms0.png" />
+    <Resource Include="pass.png" />
+    <Resource Include="search.png" />
+  </ItemGroup>
+
+</Project>
