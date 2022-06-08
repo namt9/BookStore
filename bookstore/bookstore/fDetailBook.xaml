@@ -1,0 +1,43 @@
+﻿<Window x:Class="bookstore.fDetailBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bookstore"
+        mc:Ignorable="d"
+        Title="fDetailBook" Height="450" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="60*"/>
+        </Grid.ColumnDefinitions>
+        <Image Width="200" Height="320" x:Name="imageBook" Grid.Column="0">
+        </Image>
+        <StackPanel Grid.Column="1">
+            <Label Height="50" x:Name="tensach_LB" FontSize="20" FontFamily="Calibri" FontWeight="Bold" HorizontalAlignment="Center" Width="193"/>
+            <StackPanel Margin="0,20,0,0" Orientation="Horizontal">
+                <Label Width="110" Height="30" FontSize="15" HorizontalAlignment="Left" Content="Tác giả : " FontFamily="Calibri"/>
+                <Label x:Name="tacgia_LB" Height="30" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0" Orientation="Horizontal">
+                <Label Width="110" Height="30" FontSize="15" HorizontalAlignment="Left" Content="Nhà xuất bản : " FontFamily="Calibri"/>
+                <Label x:Name="nxb_LB" Height="30" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0" Orientation="Horizontal">
+                <Label Width="110" Height="30" FontSize="15" HorizontalAlignment="Left" Content="Năm xuất bản : " FontFamily="Calibri"/>
+                <Label x:Name="namxb_LB" Height="30" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0" Orientation="Horizontal">
+                <Label Width="110" Height="30" FontSize="15" HorizontalAlignment="Left" Content="Thể loại : " FontFamily="Calibri"/>
+                <Label x:Name="theloai_LB" Height="30" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0" Orientation="Horizontal">
+                <Label Width="110" Height="30" FontSize="15" HorizontalAlignment="Left" Content="Trạng thái : " FontFamily="Calibri"/>
+                <Label x:Name="trangthai_LB" Height="30" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel>
+                <Label Width="110" Height="50" x:Name="price_LB" Margin="0,20,0,0" FontSize="20" FontWeight="Bold" Foreground="Red"></Label>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

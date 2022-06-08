@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="fChangePw.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fCheckCode.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fCreateBill.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fDetailBill.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fDetailBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fInfoAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fListBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fRegister.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fStatistic.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fStatisticAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fStorage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fUpdateInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="fChangePw.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fCheckCode.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fCreateBill.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fDetailBill.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fDetailBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fInfoAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fListBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fRegister.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fStatistic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fStatisticAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fStorage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fUpdateInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
