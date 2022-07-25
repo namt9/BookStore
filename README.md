@@ -14,3 +14,8 @@
 * **Mã lớp:** SE104.M22.KHCL
 * **Năm học:** HK2 (2021 - 2022)
 * **Giảng viên**: Mai Trọng Khang
+# GIỚI THIỆU ĐỒ ÁN
+* **Công nghệ**
+
+    - **Ngôn ngữ :** C#, xaml
+    - **Database :** SQL Server
