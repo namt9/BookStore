@@ -15,7 +15,9 @@
 * **Năm học:** HK2 (2021 - 2022)
 * **Giảng viên**: Mai Trọng Khang
 # GIỚI THIỆU ĐỒ ÁN
+* **Tên đồ án: ** Quản lí nhà sách
+* **Mô tả: ** Quản lí cho một cửa hàng bán sách
 * **Công nghệ**
-
+    - **Phần mềm sử dụng : ** Visual studio (WPF), SQL Server
     - **Ngôn ngữ :** C#, xaml
     - **Database :** SQL Server
