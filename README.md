@@ -21,3 +21,10 @@
     - **Framework :** Visual studio (WPF), SQL Server
     - **Language :** C#, xaml
     - **Database :** SQL Server
+
+# RUN APPLICATION IN VISUAL STUDIO
+ * **Step 1:** Download, install Visual studio and SQL Server https://visualstudio.microsoft.com/downloads, https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+ * **Step 2:** Create database with createDatabase.sql file (https://github.com/namt9/BookStore/blob/main/createDatabase.sql)
+ * **Step 3:** change conection pat database in DP.cs (line 27) file (https://github.com/namt9/BookStore/blob/main/source/DP.cs) to match your device
+ * **Step 4:** change image path in xaml files (add "images/" before the paths), example path is "image.png" to change "images/image.png"
+ 
