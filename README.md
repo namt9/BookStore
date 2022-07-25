@@ -15,9 +15,9 @@
 * **Semester:** Term2 (2021 - 2022)
 * **Lecturers**: Mai Trọng Khang
 # PROJECT INTRODUCTION
-* **Project Name: ** BookStore Management
-* **Describe: ** Implement a manageable program for a bookstore
+* **Project Name:** BookStore Management
+* **Describe:** Implement a manageable program for a bookstore
 * **Technology**
-    - **Framework : ** Visual studio (WPF), SQL Server
+    - **Framework :** Visual studio (WPF), SQL Server
     - **Language :** C#, xaml
     - **Database :** SQL Server
